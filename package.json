@@ -1,0 +1,34 @@
+{
+  "name": "graphql-playground",
+  "version": "1.0.0",
+  "description": "----",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graphql-study/graphql-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graphql-study/graphql-playground/issues"
+  },
+  "homepage": "https://github.com/graphql-study/graphql-playground#readme",
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "bcrypt": "^5.0.0",
+    "crypto-js": "^4.0.0",
+    "csprng": "^0.1.2",
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "nodemon": "^2.0.7"
+  }
+}
